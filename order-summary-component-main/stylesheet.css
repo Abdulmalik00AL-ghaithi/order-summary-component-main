@@ -1,0 +1,96 @@
+body{
+    display:grid;
+    place-items: center;
+    min-height: 97vh;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color:#e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+    
+    
+}
+
+main{
+    
+background-color:hsl(0,0%,100%) ;
+width: 25rem ;
+display: flex;
+border-radius: 1rem;
+display: grid;
+gap: 1rem;
+
+
+}
+.img1{
+    margin:0;
+    width:25rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+.op1{
+    margin: auto;
+    max-width:34ch ;
+    text-align: center;
+}
+.op2{
+     background-color: #f8f9fe;
+     width:22rem;
+     border-radius: 0.5rem;
+     margin: auto;
+     display:grid;
+     grid-template-columns:repeat(4,1fr) ;
+    /* display: flex;
+     align-items: center;
+     justify-content: center;*/
+}
+
+.op2 a{
+    align-self: center;
+    font-size: 0.9rem;
+    color: #3325ae;
+    font-weight: bold;
+}
+.op2 a:hover{
+    color: #897ee6;
+    text-decoration: none;
+}
+.op2 p{
+    grid-column: span 2;
+}
+
+.img2 {
+    height: 3rem;
+    width: 3rem;
+    margin:auto;
+    
+}
+.op3{
+    margin: auto;
+    height: 10rem;
+    display: grid;
+}
+button{
+    background-color: #382ae1;
+    border-style: none;
+    width:22rem;
+    height: 3rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    margin: auto;
+
+}
+button:hover{
+    background-color: #766cf1;
+}
+.op3 a{
+    text-align: center;
+    text-decoration: none;
+    color: #707791 ;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.op3 a:hover{
+    color: #1c264a;
+}
